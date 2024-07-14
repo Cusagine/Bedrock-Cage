@@ -3,6 +3,8 @@
     "values": [
       "minecraft:normal",
       "brc:bedrock_cage",
-      "minecraft:flat"
+      "brc:bedrock_cage_ct",
+      "minecraft:flat",
+      "minecraft:single_biome_surface"
     ]
   }

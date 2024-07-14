@@ -1,0 +1,19 @@
+{
+    "dimensions": {
+        "minecraft:overworld": {
+            "type": "brc:bedrock_cage_ct",
+            "generator": {
+                "type": "flat",
+                "settings": {
+                    "layers": [
+                        {"block":"minecraft:bedrock","height":80}
+                    ],
+                    "features": false,
+                    "lakes": false,
+                    "biome": "brc:bedrock_cage",
+                    "structure_overrides": []
+                }
+            }
+        }
+    }
+}

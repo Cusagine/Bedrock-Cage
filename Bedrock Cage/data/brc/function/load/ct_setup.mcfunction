@@ -2,7 +2,7 @@ data modify storage brc:core Load.CtSetUp set value 1b
 # Area Add
 fill -16 47 -16 15 32 15 minecraft:air
 fill -17 31 -17 16 16 16 minecraft:light_blue_concrete replace minecraft:bedrock
-fill -17 -15 -17 16 0 16 minecraft:lime_concrete replace minecraft:bedrock
+fill -17 15 -17 16 0 16 minecraft:lime_concrete replace minecraft:bedrock
 fill -17 -1 -17 16 -16 16 minecraft:brown_concrete replace minecraft:bedrock
 fill -15 -17 -15 -16 -17 -16 minecraft:purple_concrete replace minecraft:bedrock
 fill -1 -17 -1 0 -17 0 minecraft:orange_concrete replace minecraft:bedrock

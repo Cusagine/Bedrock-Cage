@@ -2,6 +2,7 @@
     "replace": true,
     "values": [
       "minecraft:normal",
-      "brc:bedrock_cage"
+      "brc:bedrock_cage",
+      "brc:bedrock_cage_ct"
     ]
   }

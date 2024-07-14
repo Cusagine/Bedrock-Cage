@@ -6,7 +6,7 @@
         ],
         "features": false,
         "lakes": false,
-        "biome": "minecraft:the_void",
+        "biome": "brc:bedrock_cage",
         "structure_overrides": []
     }
 }

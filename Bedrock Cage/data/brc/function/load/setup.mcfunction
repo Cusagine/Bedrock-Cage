@@ -1,5 +1,7 @@
 data modify storage brc:core Load.SetUp set value 1b
 # Ruler
+setworldspawn 0 -16 0
+weather thunder
 gamerule commandModificationBlockLimit 81920
 gamerule disableRaids true
 gamerule doDaylightCycle false

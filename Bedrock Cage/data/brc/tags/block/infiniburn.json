@@ -2,8 +2,6 @@
     "replace": false,
     "values":[
         "#minecraft:infiniburn_overworld",
-        "#minecraft:infiniburn_nether",
-        "#minecraft:infiniburn_end",
         "minecraft:bedrock",
         "minecraft:barrier"
     ]
