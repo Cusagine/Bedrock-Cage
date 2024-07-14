@@ -1,0 +1,33 @@
+- Pling：在游戏加载时进行提醒。
+  brxt:tags\functions\pling.json
+* 将pling系列函数加入pling函数标签中
+  brxt:functions\pling.mcfunction
+* 默认的pling函数
+  minecraft:tags\functions\load.json
+* 将pling函数标签加入加载函数标签中
+
+- EffectCocktail：用于获得大量状态效果，持续10秒。
+  brxt:functions\effect_cocktail.mcfunction
+* 获得所有状态效果。
+  brxt:functions\effect_cocktail\normal.mcfunction
+* 获得所有可以正常获取的状态效果。
+  brxt:functions\effect_cocktail\potion.mcfunction
+* 获得所有药水效果。（包括瞬间治疗和瞬间伤害）
+  brxt:functions\effect_cocktail\positive.mcfunction
+* 获得所有正面状态效果。
+  brxt:functions\effect_cocktail\negative.mcfunction
+* 获得所有负面状态效果。
+  brxt:functions\effect_cocktail\neutral.mcfunction
+* 获得所有中性状态效果。
+
+- BedrockToken：基岩权标！
+  brxt:item_modifiers\bedrock_token.json
+* 基岩权标。本数据包的代表物。
+
+
+- StorageManage：管理存储。
+
+
+brxt:data 存储世界数据
+brxt:config 存储配置数据
+brxt:cache 存储临时数据

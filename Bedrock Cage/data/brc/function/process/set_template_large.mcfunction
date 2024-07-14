@@ -1,0 +1,1 @@
+$place template $(content) -16 -16 -16

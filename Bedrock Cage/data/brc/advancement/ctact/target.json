@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "target": {
+        "trigger": "player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "components":{
+              "minecraft:custom_data":"{Target:1b}"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "target"
+      ]
+    ],
+    "rewards": {
+        "function": "brc:ctact/target"
+  }
+}

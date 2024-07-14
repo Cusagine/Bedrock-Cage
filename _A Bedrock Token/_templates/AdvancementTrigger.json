@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "": {
+        "trigger": "",
+        "conditions": {
+          "": {
+            
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        ""
+      ]
+    ],
+    "rewards": {
+        "function": ""
+  }
+}

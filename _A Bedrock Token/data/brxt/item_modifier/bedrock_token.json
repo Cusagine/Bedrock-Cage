@@ -1,0 +1,71 @@
+[
+    {
+    "function": "set_name",
+    "entity": "this",
+    "name": [{"type":"translatable","translate":"brxt.bedrock_token","fallback":"%s的基岩权标","with":[{"selector":"@s"}],"italic": false}]
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "rarity": "epic"
+        }
+    },
+    {
+    "function": "set_custom_data",
+    "tag": {"BedrockToken":1}
+    },
+    {
+    "function": "set_attributes",
+    "modifiers": [
+            {
+            "amount": 1024,
+            "attribute": "minecraft:generic.attack_damage",
+            "id": "brxt:bedrock_token",
+            "operation": "add_value",
+            "slot": "any"
+            },
+            {
+            "amount": 1024,
+            "attribute": "minecraft:generic.attack_speed",
+            "id": "brxt:bedrock_token",
+            "operation": "add_value",
+            "slot": "any"
+            },
+            {
+            "amount": 20,
+            "attribute": "minecraft:generic.max_health",
+            "id": "brxt:bedrock_token",
+            "operation": "add_value",
+            "slot": "any"
+            },
+            {
+            "amount": 1,
+            "attribute": "minecraft:generic.knockback_resistance",
+            "id": "brxt:bedrock_token",
+            "operation": "add_value",
+            "slot": "any"
+            },
+            {
+            "amount": 30,
+            "attribute": "minecraft:generic.armor",
+            "id": "brxt:bedrock_token",
+            "operation": "add_value",
+            "slot": "any"
+            },
+            {
+            "amount": 20,
+            "attribute": "minecraft:generic.armor_toughness",
+            "id": "brxt:bedrock_token",
+            "operation": "add_value",
+            "slot": "any"
+            },
+            {
+            "amount": 1024,
+            "attribute": "minecraft:generic.luck",
+            "id": "brxt:bedrock_token",
+            "operation": "add_value",
+            "slot": "any"
+            }
+        ]
+    }
+]

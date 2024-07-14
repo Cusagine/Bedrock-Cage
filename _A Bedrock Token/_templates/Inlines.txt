@@ -1,0 +1,7 @@
+战利品表
+{function:"",}
+谓词
+{condition:"",}
+
+- 消耗物品
+{function:"set_count",add:true,count:-1}

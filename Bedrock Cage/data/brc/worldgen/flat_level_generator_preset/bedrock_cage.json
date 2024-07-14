@@ -1,0 +1,12 @@
+{
+    "display": "minecraft:bedrock",
+    "settings": {
+        "layers": [
+            {"block":"minecraft:bedrock","height":80}
+        ],
+        "features": false,
+        "lakes": false,
+        "biome": "minecraft:the_void",
+        "structure_overrides": []
+    }
+}

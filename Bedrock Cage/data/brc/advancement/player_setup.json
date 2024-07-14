@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "tick": {
+        "trigger": "tick",
+        "conditions": {}
+      }
+    },
+    "requirements": [
+      [
+        "tick"
+      ]
+    ],
+    "rewards": {
+        "function": "brc:load/player_setup"
+  }
+}

@@ -1,0 +1,16 @@
+effect give @s blindness 10
+effect give @s darkness 10
+effect give @s hunger 10
+effect give @s infested 10
+effect give @s instant_damage 10
+effect give @s levitation 10
+effect give @s mining_fatigue 10
+effect give @s nausea 10
+effect give @s oozing 10
+effect give @s poison 10
+effect give @s slowness 10
+effect give @s unluck 10
+effect give @s weakness 10
+effect give @s weaving 10
+effect give @s wind_charged 10
+effect give @s wither 10

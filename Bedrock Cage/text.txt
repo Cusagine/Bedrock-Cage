@@ -1,0 +1,54 @@
+基岩上层
+fill -16 47 -16 15 32 15
+游戏层
+fill -16 31 -16 15 -16 15 
+基岩底层
+fill -16 -17 -16 15 -32 15 
+
+天空层
+fill -16 31 -16 15 16 15 
+地表层
+fill -16 -15 -16 15 0 15 
+地下层
+fill -16 -1 -16 15 -16 15 
+
+place template test -16 -16 -16
+place template test 0 -16 0
+
+地图信息 brc:map_info
+# id:当前地图。
+# title:地图标题。
+# summary:地图摘要。
+# desc:地图描述。
+# content:要加载的模板的命名空间ID。
+# large:地图是否占4个区块。 1b——4个 0b——1个
+# next_pool:地图使用的下一个抽取池。
+# exit_state:是否默认开启出口。（1-目标点变为折跃门；0-不处理）
+# exit_condition:开启出口的条件（clear-杀死所有已标记实体；none-无；boss-杀死boss（brc:boss或标签boss）实体）
+# gamemode:玩家使用的游戏模式
+
+主题信息 brc:theme_info
+# id:当前主题。
+# title:主题标题。
+# summary:主题摘要。
+# desc:主题描述。
+# start_map:此主题的起始地图。
+
+冒险状态 brc:stage
+run:是否正在运行游戏。
+players:存活的玩家。
+progress:玩家所处的阶段。
+step:玩家所处阶段的第几个牢笼。
+
+
+
+Start:玩家的出生点位置
+Goal:目标位置
+Target:清除对象
+Boss:Boss实体
+Player:参与游戏的实体
+Keep:保留的实体
+
+
+规则机械（Ruled Ruler）
+必须破坏3个供能命令方块（会持续放置红石块）才能通关。

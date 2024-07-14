@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "pack_format": 48,
+        "supported_formats": [,],
+        "description": {"translate":"","fallback":""},
+        "filter": {
+            "block":[
+                {"namespace":"","path":""}
+            ]
+        }
+    }
+}

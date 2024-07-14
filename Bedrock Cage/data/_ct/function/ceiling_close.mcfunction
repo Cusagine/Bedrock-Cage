@@ -1,0 +1,1 @@
+fill -16 47 -16 15 32 15 minecraft:bedrock
