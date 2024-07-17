@@ -5,3 +5,4 @@ execute as @e[type=!marker,tag=Start] at @s summon minecraft:marker run tag @s a
 execute as @e[type=!marker,tag=Start] run tp @s ~ -100 ~
 execute as @e[type=!marker,tag=Start] run kill @s
 execute as @e run data remove entity @s NoAI
+$function brc:map/$(theme)/$(id)/load

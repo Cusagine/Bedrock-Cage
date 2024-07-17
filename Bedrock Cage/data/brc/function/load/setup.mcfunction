@@ -16,6 +16,7 @@ time set midnight
 # Set Game Area
 fill -16 31 -16 15 -16 15 minecraft:air
 # Config
+function brc:theme/brc
 bossbar add brc:boss ""
 team add brc_target {"translate":"tag.brc.target","fallback":"Target"}
 team modify brc_target color red

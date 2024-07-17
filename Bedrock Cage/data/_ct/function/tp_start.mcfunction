@@ -1,0 +1,1 @@
+execute at @e[limit=1,sort=random,tag=Start] run tp @s ~ ~ ~

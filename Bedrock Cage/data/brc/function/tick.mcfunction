@@ -1,0 +1,1 @@
+function brc:tick/ingame with storage brc:map_info

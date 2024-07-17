@@ -17,6 +17,7 @@ place template test 0 -16 0
 
 地图信息 brc:map_info
 # id:当前地图。
+# theme:地图所属的主题。
 # title:地图标题。
 # summary:地图摘要。
 # desc:地图描述。
@@ -52,3 +53,6 @@ Keep:保留的实体
 
 规则机械（Ruled Ruler）
 必须破坏3个供能命令方块（会持续放置红石块）才能通关。
+
+
+{front_text:{messages:['{"translate":"","fallback":""}','','','']}}
