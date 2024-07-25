@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "goal": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "block": "end_gateway"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "goal"
+      ]
+    ],
+    "rewards": {
+        "function": "brc:event/enter_goal"
+  }
+}

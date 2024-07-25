@@ -49,6 +49,7 @@ Target:清除对象
 Boss:Boss实体
 Player:参与游戏的实体
 Keep:保留的实体
+Complete:完成游戏的实体
 
 
 规则机械（Ruled Ruler）
