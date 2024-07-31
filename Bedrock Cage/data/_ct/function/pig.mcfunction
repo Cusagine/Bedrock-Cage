@@ -1,0 +1,1 @@
+summon minecraft:pig 4.77 1.00 10.26 {PersistenceRequired: 1b, Tags: ["Target","Boss"], Health: 10.0f, DeathLootTable: "brc:menu_pig"}

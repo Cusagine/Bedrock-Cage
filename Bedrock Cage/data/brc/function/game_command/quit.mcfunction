@@ -1,2 +1,2 @@
 tag @s remove Player
-say quited.
+tellraw @a {"translate":"message.brc.quited","with":[{"selector":"@s"}],"fallback":"%s quited.","color":"yellow"}
