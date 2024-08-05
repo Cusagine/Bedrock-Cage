@@ -1,11 +1,11 @@
-- VersionCheck：检查数据包是否启用及当前版本。
+- VersionCheck：用于标识数据包是否启用及数据包当前版本。
     enabled.mcfunction：返回是否启用相应数据包。
     version.mcfunction：返回当前版本。
 - PackTemplate：用于创作包的模板。
     pack.mcmeta：包索引文件模板。
     \data：数据包文件夹结构模板。
-    \asserts：资源包文件夹结构模板。
-- Inlines.txt：所有内联JSON文件。
+    \assets：资源包文件夹结构模板。
+- Inlines.txt：记录所有内联JSON模板的文件。
 AdvancementTrigger.json ：进度触发器模板。
 AdvancementReward.mcfunction：用作进度奖励的函数模板。
 Tag.json：标签模板。
