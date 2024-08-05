@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "tame": {
+        "trigger": "minecraft:tame_animal"
+      }
+    },
+    "requirements": [
+      [
+        "tame"
+      ]
+    ],
+    "rewards": {
+        "function": "brc:event/tame"
+  }
+}

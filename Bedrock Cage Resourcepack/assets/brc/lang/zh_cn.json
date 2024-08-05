@@ -1,0 +1,54 @@
+{
+    "brc.desc":"基岩牢笼资源包",
+    "brxt.pling":"[基岩权标] 已加载！",
+    "brxt.bedrock_token":"%s的基岩权标",
+
+    "tag.brc.goal":"目标点",
+    "tag.brc.start":"起始点",
+    "tag.brc.target":"目标",
+    "tag.brc.boss":"Boss",
+
+    "generator.brc.bedrock_cage":"基岩牢笼",
+    "generator.brc.bedrock_cage_ct":"基岩牢笼（创作者模式）",
+    "flat_world_preset.brc.bedrock_cage":"基岩牢笼",
+    
+    "message.brc.ct_mode":"创作者模式已启用。",
+    "message.brc.joined":"%s已加入。",
+    "message.brc.quited":"%s已退出。",
+    
+    "rule.brc.killing_block":"杀人方块：",
+
+    "theme.brc.title":"基岩牢笼",
+    "theme.brc.summary":"游戏的基础",
+    "theme.brc.desc":"用于构建游戏的主题。",
+    "map.brc.menu.title":"命运大厅",
+    "map.brc.menu.summary":"欢迎回来。",
+    "map.brc.menu.desc":"开始与终末之地。\\n游戏闲置时加载的地图。你可以修改设定，更改主题，或者开始新游戏。",
+
+    "map.brc.menu.sign_text.to_start.1": "走吧。",
+    "map.brc.menu.sign_text.to_start.2": "",
+    "map.brc.menu.sign_text.to_start.3": "",
+    "map.brc.menu.sign_text.to_start.4": "",
+    "map.brc.menu.sign_text.to_back.1": "要回来吗？",
+    "map.brc.menu.sign_text.to_back.2": "但一切依旧。",
+    "map.brc.menu.sign_text.to_back.3": "",
+    "map.brc.menu.sign_text.to_back.4": "",
+    "map.brc.menu.sign_text.join.1": "加入还是退出？",
+    "map.brc.menu.sign_text.join.2": "",
+    "map.brc.menu.sign_text.join.3": "",
+    "map.brc.menu.sign_text.join.4": "",
+    "map.brc.menu.sign_text.ruled_ruler.1": "规则之上仍有规则。",
+    "map.brc.menu.sign_text.ruled_ruler.2": "命运之下仍有命运。",
+    "map.brc.menu.sign_text.ruled_ruler.3": "",
+    "map.brc.menu.sign_text.ruled_ruler.4": "",
+    "map.brc.menu.sign_text.dying_redstone.1": "我们称之为",
+    "map.brc.menu.sign_text.dying_redstone.2": "“规则”",
+    "map.brc.menu.sign_text.dying_redstone.3": "",
+    "map.brc.menu.sign_text.dying_redstone.4": "",
+
+    "check.brc.start.success":"存在起始点：是",
+    "check.brc.start.failed":"存在起始点：否",
+    "check.brc.goal.success":"存在目标点：是",
+    "check.brc.goal.failed":"存在目标点：否",
+    "":""
+}

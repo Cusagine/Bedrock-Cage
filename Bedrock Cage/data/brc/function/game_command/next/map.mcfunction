@@ -1,1 +1,0 @@
-$function brc:map/$(theme)/$(id)

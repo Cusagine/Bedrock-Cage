@@ -1,0 +1,56 @@
+{
+    "brc.desc":"Bedrock Cage Resource Pack",
+    "brxt.pling":"[Bedrock Token] Loaded!",
+    "brxt.bedrock_token":"%s's Bedrock Token",
+
+    "tag.brc.goal":"Goal Point",
+    "tag.brc.start":"Start Point",
+    "tag.brc.target":"Target",
+    "tag.brc.boss":"Boss",
+
+    "generator.brc.bedrock_cage":"Bedrock Cage",
+    "generator.brc.bedrock_cage_ct":"Bedrock Cage (Creator Mode)",
+    "flat_world_preset.brc.bedrock_cage":"Bedrock Cage",
+
+    "message.brc.ct_mode":"The creator mode has been enabled.",
+    "message.brc.joined":"%s joined.",
+    "message.brc.quited":"%s quitted.",
+
+    "rule.brc.killing_block":"Killer Block:",
+
+    "theme.brc.title":"Bedrock Cage",
+    "theme.brc.summary":"The base of the game",
+    "theme.brc.desc":"The theme that builds the game.",  
+    "map.brc.menu.title":"The Fate Hall",
+    "map.brc.menu.summary":"Welcome back.",
+    "map.brc.menu.desc":"The land of The Start and The End.\\nThe map loaded when idling the game. You can modify settings, change themes, or start new games here.",
+
+    "map.brc.menu.sign_text.to_start.1": "Let's go.",
+    "map.brc.menu.sign_text.to_start.2": "",
+    "map.brc.menu.sign_text.to_start.3": "",
+    "map.brc.menu.sign_text.to_start.4": "",
+    "map.brc.menu.sign_text.to_back.1": "Come back?",
+    "map.brc.menu.sign_text.to_back.2": "But everything",
+    "map.brc.menu.sign_text.to_back.3": "still.",
+    "map.brc.menu.sign_text.to_back.4": "",
+    "map.brc.menu.sign_text.join.1": "Join or Quit?",
+    "map.brc.menu.sign_text.join.2": "",
+    "map.brc.menu.sign_text.join.3": "",
+    "map.brc.menu.sign_text.join.4": "",
+    "map.brc.menu.sign_text.ruled_ruler.1": "Some rules",
+    "map.brc.menu.sign_text.ruled_ruler.2": "above the rules.",
+    "map.brc.menu.sign_text.ruled_ruler.3": "Some fates",
+    "map.brc.menu.sign_text.ruled_ruler.4": "under the fates.",
+    "map.brc.menu.sign_text.dying_redstone.1": "We call it",
+    "map.brc.menu.sign_text.dying_redstone.2": "\"The Rule\"",
+    "map.brc.menu.sign_text.dying_redstone.3": "",
+    "map.brc.menu.sign_text.dying_redstone.4": "",
+
+    "check.brc.start.success":"Start Point(s) Exist: Yes",
+    "check.brc.start.failed":"Start Point(s) Exist: No",
+    "check.brc.goal.success":"Goal Point(s) Exist: Yes",
+    "check.brc.goal.failed":"Goal Point(s) Exist: No",
+
+
+    "":""
+}
