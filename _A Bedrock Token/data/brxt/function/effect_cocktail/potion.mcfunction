@@ -1,5 +1,5 @@
 effect give @s fire_resistance 10
-effect give @s instant_health 10
+effect give @s instant_health 200
 effect give @s invisibility 10
 effect give @s jump_boost 10
 effect give @s night_vision 10
@@ -10,7 +10,7 @@ effect give @s speed 10
 effect give @s strength 10
 effect give @s water_breathing 10
 effect give @s infested 10
-effect give @s instant_damage 10
+effect give @s instant_damage 200
 effect give @s oozing 10
 effect give @s poison 10
 effect give @s slowness 10
