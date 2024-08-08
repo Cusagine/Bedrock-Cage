@@ -8,6 +8,8 @@
     "tag.brc.target":"Target",
     "tag.brc.boss":"Boss",
 
+    "event.brc.no_player_end":"No player found. Game over.",
+
     "generator.brc.bedrock_cage":"Bedrock Cage",
     "generator.brc.bedrock_cage_ct":"Bedrock Cage (Creator Mode)",
     "flat_world_preset.brc.bedrock_cage":"Bedrock Cage",
@@ -15,6 +17,8 @@
     "message.brc.ct_mode":"The creator mode has been enabled.",
     "message.brc.joined":"%s joined.",
     "message.brc.quited":"%s quitted.",
+
+    "criteria.brc.death_trigger":"Death Trigger",
 
     "rule.brc.killing_block":"Killer Block:",
 

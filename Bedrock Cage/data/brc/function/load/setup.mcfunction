@@ -22,3 +22,4 @@ team add brc_target {"translate":"tag.brc.target","fallback":"Target"}
 team modify brc_target color red
 team add brc_boss {"translate":"tag.brc.boss","fallback":"Boss"}
 team modify brc_boss color light_purple
+scoreboard objectives add death_trigger deathCount {"translate":"criteria.brc.death_trigger","fallback":"Death Trigger"}

@@ -8,6 +8,8 @@
     "tag.brc.target":"目标",
     "tag.brc.boss":"Boss",
 
+    "event.brc.no_player_end":"未找到玩家。游戏结束。",
+
     "generator.brc.bedrock_cage":"基岩牢笼",
     "generator.brc.bedrock_cage_ct":"基岩牢笼（创作者模式）",
     "flat_world_preset.brc.bedrock_cage":"基岩牢笼",
@@ -15,6 +17,8 @@
     "message.brc.ct_mode":"创作者模式已启用。",
     "message.brc.joined":"%s已加入。",
     "message.brc.quited":"%s已退出。",
+
+    "criteria.brc.death_trigger":"死亡触发器",
     
     "rule.brc.killing_block":"杀人方块：",
 
