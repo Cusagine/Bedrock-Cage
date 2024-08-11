@@ -7,6 +7,9 @@
     "tag.brc.start":"Start Point",
     "tag.brc.target":"Target",
     "tag.brc.boss":"Boss",
+    "tag.brc.player":"Player",
+    "tag.brc.keep":"Keep",
+    "tag.brc.complete":"Completed",
 
     "event.brc.no_player_end":"No player found. Game over.",
 

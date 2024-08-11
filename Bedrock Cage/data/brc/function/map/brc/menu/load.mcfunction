@@ -7,3 +7,4 @@ setblock 3 2 -5 minecraft:oak_wall_sign[facing=east,waterlogged=false]{back_text
 clear @a
 xp set @a 0 levels
 xp set @a 0 points
+effect clear @a

@@ -7,6 +7,9 @@
     "tag.brc.start":"起始点",
     "tag.brc.target":"目标",
     "tag.brc.boss":"Boss",
+    "tag.brc.player":"玩家",
+    "tag.brc.keep":"保留",
+    "tag.brc.complete":"已完成",
 
     "event.brc.no_player_end":"未找到玩家。游戏结束。",
 

@@ -1,3 +1,5 @@
+# After Load run
+execute unless data storage brc:core Load.SetUp run return 0
 # ingame tick
 function brc:tick/ingame with storage brc:map_info
 # end check
