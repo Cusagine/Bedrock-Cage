@@ -1,5 +1,7 @@
+execute unless biome ~ ~ ~ brc:bedrock_cage run return fail
 # Set Player
 execute unless data storage brc:stage {run:1b} run tag @s add Player
+execute unless data storage brc:stage {run:1b} run scoreboard players enable @s Quit
 execute if data storage brc:stage {run:1b} run gamemode spectator
 # player Check
 execute if data storage brc:core Load{PlayerSetUp:1b} run return 0
