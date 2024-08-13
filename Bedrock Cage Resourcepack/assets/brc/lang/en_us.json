@@ -11,7 +11,12 @@
     "tag.brc.keep":"Keep",
     "tag.brc.complete":"Completed",
 
+    "item.brc.theme_book": "Change Theme",
+
     "event.brc.no_player_end":"No player found. Game over.",
+    "event.brc.change_theme.empty":"Please put the book on the bookshelf",
+    "event.brc.change_theme.fail":"Failed to change theme",
+    "event.brc.change_theme.success":"Theme changed",
 
     "generator.brc.bedrock_cage":"Bedrock Cage",
     "generator.brc.bedrock_cage_ct":"Bedrock Cage (Creator Mode)",
@@ -38,6 +43,7 @@
     "map.brc.menu.summary":"Welcome back.",
     "map.brc.menu.desc":"The land of The Start and The End.\\nThe map loaded when idling the game. You can modify settings, change themes, or start new games here.",
 
+    "map.brc.menu.sign_text.current_theme": "Current Theme:",
     "map.brc.menu.sign_text.to_start.1": "Let's go.",
     "map.brc.menu.sign_text.to_start.2": "",
     "map.brc.menu.sign_text.to_start.3": "",

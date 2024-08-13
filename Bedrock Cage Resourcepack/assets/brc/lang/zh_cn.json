@@ -10,8 +10,13 @@
     "tag.brc.player":"玩家",
     "tag.brc.keep":"保留",
     "tag.brc.complete":"已完成",
+    
+    "item.brc.theme_book": "更改主题",
 
     "event.brc.no_player_end":"未找到玩家。游戏结束。",
+    "event.brc.change_theme.empty":"请将书放入书架",
+    "event.brc.change_theme.fail":"无法更改主题",
+    "event.brc.change_theme.success":"主题已更改",
 
     "generator.brc.bedrock_cage":"基岩牢笼",
     "generator.brc.bedrock_cage_ct":"基岩牢笼（创作者模式）",
@@ -38,6 +43,7 @@
     "map.brc.menu.summary":"欢迎回来。",
     "map.brc.menu.desc":"开始与终末之地。\\n游戏闲置时加载的地图。你可以修改设定，更改主题，或者开始新游戏。",
 
+    "map.brc.menu.sign_text.current_theme": "当前主题：",
     "map.brc.menu.sign_text.to_start.1": "走吧。",
     "map.brc.menu.sign_text.to_start.2": "",
     "map.brc.menu.sign_text.to_start.3": "",
