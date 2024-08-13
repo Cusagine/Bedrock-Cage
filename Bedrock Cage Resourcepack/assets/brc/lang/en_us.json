@@ -21,15 +21,9 @@
     "message.brc.joined":"%s joined.",
     "message.brc.quited":"%s quitted.",
 
-    "objective.brc.death_trigger":"Death Trigger",
-    "objective.brc.quit_trigger":"Quit Trigger",
-    "objective.brc.random":"Randomizer",
+    "criteria.brc.death_trigger":"Death Trigger",
 
     "rule.brc.killing_block":"Killer Block:",
-
-    "death.attack.quited":"%s quitted the cage",
-    "death.attack.quited.player":"%s quitted the cage while fighting %s",
-    "death.attack.quited.item":"%s quitted the cage while fighting %s wielding %s",
 
     "theme.brc.title":"Bedrock Cage",
     "theme.brc.summary":"The base of the game",

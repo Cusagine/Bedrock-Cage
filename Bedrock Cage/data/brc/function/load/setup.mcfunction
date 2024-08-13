@@ -22,6 +22,5 @@ team add brc_target {"translate":"tag.brc.target","fallback":"Target"}
 team modify brc_target color red
 team add brc_boss {"translate":"tag.brc.boss","fallback":"Boss"}
 team modify brc_boss color light_purple
-scoreboard objectives add death_trigger deathCount {"translate":"objective.brc.death_trigger","fallback":"Death Trigger"}
-scoreboard objectives add Quit trigger {"translate":"objective.brc.quit_trigger","fallback":"Quit Trigger"}
-scoreboard objectives add random dummy {"translate":"objective.brc.random","fallback":"Randomizer"}
+scoreboard objectives add death_trigger deathCount {"translate":"criteria.brc.death_trigger","fallback":"Death Trigger"}
+scoreboard players set @a death_trigger 0

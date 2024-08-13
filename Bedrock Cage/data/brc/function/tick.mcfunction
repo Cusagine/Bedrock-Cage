@@ -11,6 +11,7 @@ execute as @e unless entity @s[tag=Player] unless entity @s[tag=Goal] unless ent
 # condition check
 execute if data storage brc:map_info {exit_condition:"clear"} unless entity @e[tag=Target] run function brc:game_command/open_gateway
 execute if data storage brc:map_info {exit_condition:"clear"} if entity @e[tag=Target] run function brc:game_command/close_gateway
+execute if data storage brc:map_info {exit_condition:"boss"} unless entity @e[tag=Boss] run function brc:game_command/open_gateway
+execute if data storage brc:map_info {exit_condition:"boss"} if entity @e[tag=Boss] run function brc:game_command/close_gateway
 # trigger check
 execute as @a[tag=Player,scores={death_trigger=1..}] run function brc:event/death_trigger
-execute as @a[scores={Quit=1..}] run function brc:event/quit_trigger
