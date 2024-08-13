@@ -1,1 +1,1 @@
-$function brc:next_pool/$(next_pool)
+$function brc:next_pool/$(theme)/$(next_pool)
