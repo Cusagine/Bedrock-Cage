@@ -21,9 +21,15 @@
     "message.brc.joined":"%s已加入。",
     "message.brc.quited":"%s已退出。",
 
-    "criteria.brc.death_trigger":"死亡触发器",
+    "objective.brc.death_trigger":"死亡触发器",
+    "objective.brc.quit_trigger":"退出触发器",
+    "objective.brc.random":"随机发生器",
     
     "rule.brc.killing_block":"杀人方块：",
+    
+    "death.attack.quited":"%s退出了牢笼",
+    "death.attack.quited.player":"%s在与%s战斗时退出了牢笼",
+    "death.attack.quited.item":"%1$s在与持有%3$s的%2$s战斗时退出了牢笼",
 
     "theme.brc.title":"基岩牢笼",
     "theme.brc.summary":"游戏的基础",
