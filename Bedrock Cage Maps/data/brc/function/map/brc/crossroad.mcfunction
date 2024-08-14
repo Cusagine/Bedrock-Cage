@@ -5,7 +5,7 @@ data modify storage brc:map_info title set value "十字路口"
 # summary:地图摘要。会在载入地图时用作副标题。
 data modify storage brc:map_info summary set value "无论从何处出发，我们一定会在终点相遇。"
 # desc:地图描述。
-data modify storage brc:map_info desc set value ""
+data modify storage brc:map_info desc set value "你要朝哪个方向走？无论从何处出发，一切的目的地已经确定。"
 # content:要加载的模板的命名空间ID。
 data modify storage brc:map_info content set value "brc:crossroad"
 # large:地图是否占4个区块。 （true——4个 false——1个）

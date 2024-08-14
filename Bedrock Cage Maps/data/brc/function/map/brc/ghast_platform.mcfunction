@@ -5,7 +5,7 @@ data modify storage brc:map_info title set value "恶魂平台"
 # summary:地图摘要。会在载入地图时用作副标题。
 data modify storage brc:map_info summary set value "和恶魂一起打球！谁输了谁死！"
 # desc:地图描述。
-data modify storage brc:map_info desc set value ""
+data modify storage brc:map_info desc set value "我们总是会碰到这样的游戏。"
 # content:要加载的模板的命名空间ID。
 data modify storage brc:map_info content set value "brc:ghast_platform"
 # large:地图是否占4个区块。 （true——4个 false——1个）
