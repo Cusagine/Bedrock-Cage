@@ -5,7 +5,7 @@ execute unless data storage brc:core Load.PlayerSetUp run return 0
 # ingame tick
 function brc:tick/ingame with storage brc:map_info
 # end check
-execute unless entity @a[tag=Player] unless data storage brc:map_info {id:"menu"} unless data storage brc:core Load{CtSetUp:1b} run function brc:event/no_player_end
+execute if entity @a unless entity @a[tag=Player] unless data storage brc:map_info {id:"menu"} unless data storage brc:core Load{CtSetUp:1b} run function brc:event/no_player_end
 # other in goal
 execute as @e unless entity @s[tag=Player] unless entity @s[tag=Goal] unless entity @s[tag=Start] at @s if block ~ ~ ~ end_gateway at @e[tag=SelectedStart] run tp @s ~ ~ ~
 # condition check

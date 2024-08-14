@@ -18,13 +18,17 @@
     "event.brc.change_theme.fail":"Failed to change theme",
     "event.brc.change_theme.success":"Theme changed",
 
+    "game_command.brc.clean_item":"Items cleaned.",
+    "game_command.brc.open_gateway":"Gateway opened.",
+    "game_command.brc.close_gateway":"Gateway closed.",
+    "message.brc.joined":"%s joined.",
+    "message.brc.quited":"%s quitted.",
+
     "generator.brc.bedrock_cage":"Bedrock Cage",
     "generator.brc.bedrock_cage_ct":"Bedrock Cage (Creator Mode)",
     "flat_world_preset.brc.bedrock_cage":"Bedrock Cage",
 
     "message.brc.ct_mode":"The creator mode has been enabled.",
-    "message.brc.joined":"%s joined.",
-    "message.brc.quited":"%s quitted.",
 
     "objective.brc.death_trigger":"Death Trigger",
     "objective.brc.quit_trigger":"Quit Trigger",

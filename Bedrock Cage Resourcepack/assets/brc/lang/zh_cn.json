@@ -18,13 +18,17 @@
     "event.brc.change_theme.fail":"无法更改主题",
     "event.brc.change_theme.success":"主题已更改",
 
+    "game_command.brc.clean_item":"物品已清除。",
+    "game_command.brc.open_gateway":"折跃门已打开。",
+    "game_command.brc.close_gateway":"折跃门已关闭。",
+    "game_command.brc.joined":"%s已加入。",
+    "game_command.brc.quited":"%s已退出。",
+
     "generator.brc.bedrock_cage":"基岩牢笼",
     "generator.brc.bedrock_cage_ct":"基岩牢笼（创作者模式）",
     "flat_world_preset.brc.bedrock_cage":"基岩牢笼",
     
     "message.brc.ct_mode":"创作者模式已启用。",
-    "message.brc.joined":"%s已加入。",
-    "message.brc.quited":"%s已退出。",
 
     "objective.brc.death_trigger":"死亡触发器",
     "objective.brc.quit_trigger":"退出触发器",
