@@ -29,12 +29,15 @@
     "flat_world_preset.brc.bedrock_cage":"基岩牢笼",
     
     "message.brc.ct_mode":"创作者模式已启用。",
+    "message.brc.fail_load":"基岩牢笼未初始化。请选择“基岩牢笼”世界类型。",
 
     "objective.brc.death_trigger":"死亡触发器",
     "objective.brc.quit_trigger":"退出触发器",
     "objective.brc.random":"随机发生器",
     
     "rule.brc.killing_block":"杀人方块：",
+    "rule.brc.close_gateway":"关闭折跃门",
+    "rule.brc.open_gateway":"打开折跃门",
     
     "death.attack.quited":"%s退出了牢笼",
     "death.attack.quited.player":"%s在与%s战斗时退出了牢笼",

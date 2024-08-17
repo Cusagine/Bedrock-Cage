@@ -29,12 +29,15 @@
     "flat_world_preset.brc.bedrock_cage":"Bedrock Cage",
 
     "message.brc.ct_mode":"The creator mode has been enabled.",
+    "message.brc.fail_load":"Bedrock Cage is not initialized. Please select world type \"Bedrock Cage\".",
 
     "objective.brc.death_trigger":"Death Trigger",
     "objective.brc.quit_trigger":"Quit Trigger",
     "objective.brc.random":"Randomizer",
 
     "rule.brc.killing_block":"Killer Block:",
+    "rule.brc.close_gateway":"Close Gateway",
+    "rule.brc.open_gateway":"Open Gateway",
 
     "death.attack.quited":"%s quitted the cage",
     "death.attack.quited.player":"%s quitted the cage while fighting %s",

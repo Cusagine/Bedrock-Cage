@@ -1,0 +1,1 @@
+effect give @e wither 1

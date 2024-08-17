@@ -28,6 +28,7 @@ place template test 0 -16 0
 # exit_condition:开启出口的条件（clear-杀死所有目标实体；none-无）
 # death_result:死亡后的事件（none-无；quit：死亡后退出游戏）
 # gamemode:玩家使用的游戏模式（adventure-冒险模式；survival-生存模式。不推荐填写为其他游戏模式）
+# enable_tick:是否启用地图内游戏每刻函数（true-启用；false-不启用）
 
 主题信息 brc:theme_info
 # id:当前主题的id。需要额外为地图信息指定主题id。

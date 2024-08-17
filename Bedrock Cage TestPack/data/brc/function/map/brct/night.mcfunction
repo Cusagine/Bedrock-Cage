@@ -20,3 +20,5 @@ data modify storage brc:map_info exit_condition set value "clear"
 data modify storage brc:map_info death_result set value "quit"
 # gamemode:玩家使用的游戏模式（adventure-冒险模式；survival-生存模式。不推荐填写为其他游戏模式）
 data modify storage brc:map_info gamemode set value "survival"
+# enable_tick:是否启用地图内游戏每刻函数（true-启用；false-不启用）
+data modify storage brc:map_info enable_tick set value false

@@ -1,5 +1,6 @@
-execute unless biome ~ ~ ~ brc:bedrock_cage run return fail
+execute if data storage brc:core Load{SetUp:0b} run return run tellraw @a {"translate":"message.brc.fail_load","fallback":"Bedrock Cage is not initialized. Please select world type \"Bedrock Cage\".","color":"red"}
 # Set Player
+title @s times 10t 1s 10t
 execute unless data storage brc:stage {run:1b} run tag @s add Player
 execute unless data storage brc:stage {run:1b} run scoreboard players enable @s Quit
 execute if data storage brc:stage {run:1b} run gamemode spectator
