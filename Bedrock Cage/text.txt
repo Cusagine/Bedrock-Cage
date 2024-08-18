@@ -15,6 +15,8 @@ fill -16 -1 -16 15 -16 15
 place template test -16 -16 -16
 place template test 0 -16 0
 
+全景图坐标： /tp @s 0.00 7.80 0.00 -45 25
+
 地图信息 brc:map_info
 # id:当前地图的id。建议与函数名称一致。
 # theme:地图所属的主题。
