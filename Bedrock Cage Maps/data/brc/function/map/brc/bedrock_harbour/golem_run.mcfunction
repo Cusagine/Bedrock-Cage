@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:iron_golem] run damage @s 0.01 minecraft:player_attack by @r[tag=Player]

@@ -1,0 +1,1 @@
+setblock 5 0 12 minecraft:repeating_command_block[conditional=false,facing=north]{Command:"execute as @e[type=villager] unless data entity @s {Health:20f} run function brc:map/brc/bedrock_harbour/fight",SuccessCount:0,TrackOutput:0b,UpdateLastExecution:1b,auto:1b,conditionMet:0b,powered:0b}
