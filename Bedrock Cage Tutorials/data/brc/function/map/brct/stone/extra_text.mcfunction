@@ -1,0 +1,2 @@
+tellraw @a {"translate":"map.brct.stone.text.3","fallback":"Yes, you can destroy and place blocks.","color":"yellow"}
+tellraw @a {"translate":"map.brct.stone.text.4","fallback":"If you forgot to get logs, enter %s back to the first cage.","with":[{"text":"/trigger Back","underlined":true,"clickEvent":{"action":"suggest_command","value":"/trigger Back"}}],"color":"yellow"}

@@ -2,6 +2,6 @@
     "pack": {
         "pack_format": 34,
         "supported_formats": [34,999],
-        "description": {"translate":"brc.desc","fallback":"Bedrock Cage Resource Pack"}
+        "description": {"translate":"brc_r.desc","fallback":"Bedrock Cage Resource Pack"}
     }
 }

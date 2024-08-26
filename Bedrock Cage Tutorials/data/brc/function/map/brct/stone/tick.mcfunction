@@ -1,0 +1,1 @@
+execute as @a[scores={Back=1..}] run function brct:back

@@ -1,0 +1,2 @@
+tellraw @a {"translate":"map.brct.end.text.1","fallback":"That's all.","color":"yellow"}
+tellraw @a {"translate":"map.brct.end.text.2","fallback":"After leaving here, you will come to the Fate Hall, which is used as the game hall.","color":"yellow"}

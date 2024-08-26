@@ -1,13 +1,13 @@
 # id:当前地图的id。
 data modify storage brc:map_info id set value "stone"
 # title:地图标题。会在载入地图时用作标题。
-data modify storage brc:map_info title set value "乱石"
+data modify storage brc:map_info title set value '{"translate":"map.brct.stone.title","fallback":"Pebbles"}'
 # summary:地图摘要。会在载入地图时用作副标题。
-data modify storage brc:map_info summary set value "如同内心一样。"
+data modify storage brc:map_info summary set value '{"translate":"map.brct.stone.summary","fallback":"As the heart."}'
 # desc:地图描述。
-data modify storage brc:map_info desc set value "some description"
+data modify storage brc:map_info desc set value '{"translate":"map.brct.stone.desc","fallback":""}'
 # content:要加载的模板的命名空间ID。
-data modify storage brc:map_info content set value "brc:stone"
+data modify storage brc:map_info content set value "brct:stone"
 # large:地图是否占4个区块。 （true——4个 false——1个）
 data modify storage brc:map_info large set value false
 # next_pool:地图使用的下一个抽取池。
@@ -21,4 +21,4 @@ data modify storage brc:map_info death_result set value "none"
 # gamemode:玩家使用的游戏模式（adventure-冒险模式；survival-生存模式。不推荐填写为其他游戏模式）
 data modify storage brc:map_info gamemode set value "survival"
 # enable_tick:是否启用地图内游戏每刻函数（true-启用；false-不启用）
-data modify storage brc:map_info enable_tick set value false
+data modify storage brc:map_info enable_tick set value true
