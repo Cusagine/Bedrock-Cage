@@ -1,0 +1,67 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:ancient_debris",
+        "count": 1
+      },
+      "title": {
+        "translate": "advancements.brc.at_pillar_point.title",
+        "fallback": "Life is a roundabout journey"
+      },
+      "description": {
+        "translate": "advancements.brc.at_pillar_point.description",
+        "fallback": "We all know that what is in front of us is not in front of us."
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "brc:advancements/root",
+    "criteria": {
+      "at_point": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                    "condition": "minecraft:value_check",
+                    "value": {
+                      "type": "minecraft:storage",
+                      "storage": "brc:stage",
+                      "path": "menu"
+                    },
+                    "range": 1
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "position": {
+                        "x": {
+                          "min": -6,
+                          "max": -5
+                        },
+                        "y": 7,
+                        "z": {
+                          "min": -4,
+                          "max": -3
+                        }
+                      }
+                    }
+                  }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "at_point"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
+  

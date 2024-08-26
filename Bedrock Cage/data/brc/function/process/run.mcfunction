@@ -17,6 +17,9 @@ execute as @e[type=!marker,tag=Start] at @s summon minecraft:marker run tag @s a
 execute as @e[type=!marker,tag=Start] run tp @s ~ -100 ~
 execute as @e[type=!marker,tag=Start] run kill @s
 execute as @e run data remove entity @s NoAI
+## custom load part
+function #brc:map_load
+execute if data storage brc:stage {deduction:1b} run function #brc:deduction_load
 $function brc:map/$(theme)/$(id)/load
 # tp_to_start
 execute as @e[limit=1,sort=random,tag=Start] run tag @s add SelectedStart

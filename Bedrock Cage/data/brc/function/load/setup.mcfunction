@@ -16,6 +16,7 @@ time set midnight
 # Set Game Area
 fill -16 31 -16 15 -16 15 minecraft:air
 # Config
+data merge storage brc:stage {run:0b,progress:0,step:0,menu:0b,deduction:0b}
 function brc:theme/brc
 bossbar add brc:boss ""
 team add brc_target {"translate":"tag.brc.target","fallback":"Target"}

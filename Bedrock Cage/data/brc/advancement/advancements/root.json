@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "menu": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:storage",
+              "storage": "brc:stage",
+              "path": "menu"
+            },
+            "range": 1
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "brc:textures/gui/advancements/backgrounds/bedrock.png",
+    "description": {
+      "translate": "advancements.brc.root.description",
+      "fallback": "Welcome back."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bedrock"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.brc.root.title",
+      "fallback": "Bedrock Cage"
+    }
+  },
+  "requirements": [
+    [
+      "menu"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

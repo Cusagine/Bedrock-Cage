@@ -41,11 +41,13 @@ place template test 0 -16 0
 
 冒险状态 brc:stage
 # run:是否正在运行游戏。
-# players:存活的玩家。
+# menu:是否位于菜单。
 # progress:玩家所处的阶段。
 # step:玩家所处阶段的第几个牢笼。
+# deduction:是否处于演绎模式。
 
-
+#brc:map_load：加载地图时使用的全域函数
+#brc:deduction_load：演绎模式下加载地图时使用的全域函数
 
 Start:玩家的出生点位置
 Goal:目标位置
@@ -60,3 +62,4 @@ Complete:完成游戏的实体
 
 
 {front_text:{messages:['{"translate":"","fallback":""}','','','']}}
+{"translate":"","fallback":""}

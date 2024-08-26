@@ -1,6 +1,6 @@
 {
     "pack": {
         "pack_format": 48,
-        "description": "The Bedrock Token Developer Pack."
+        "description": {"translate":"brxt.desc","fallback":"Bedrock Token"}
     }
 }
