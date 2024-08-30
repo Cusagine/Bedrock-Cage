@@ -3,6 +3,7 @@
     "values":[
         "condeb:magic_protection",
         "condeb:dodge",
-        "condeb:deflect"
+        "condeb:deflect",
+        "condeb:nature_shade"
     ]
 }

@@ -1,0 +1,92 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.condeb.nature_shade",
+      "fallback": "Nature Shade"
+    },
+    "effects": {
+      "minecraft:damage_immunity": [
+        {
+          "effect": {},
+          "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:damage_source_properties",
+                "predicate": {
+                  "tags":[
+                    {
+                      "expected": true,
+                      "id": "condeb:environment_damage"
+                    },
+                    {
+                      "expected": false,
+                      "id": "minecraft:bypasses_invulnerability"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "minecraft:location_changed": [
+        {
+          "effect": {
+            "type": "minecraft:attribute",
+            "amount": {
+              "type": "minecraft:linear",
+              "base": 4,
+              "per_level_above_first": 2
+            },
+            "attribute": "minecraft:generic.armor",
+            "id": "condeb:enchantment.nature_shade",
+            "operation": "add_value"
+          },
+          "requirements": {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#condeb:nature_shade_blocks"
+              }
+            }
+          }
+        },{
+          "effect": {
+            "type": "minecraft:attribute",
+            "amount": {
+              "type": "minecraft:linear",
+              "base": 2,
+              "per_level_above_first": 1
+            },
+            "attribute": "minecraft:generic.armor_toughness",
+            "id": "condeb:enchantment.nature_shade",
+            "operation": "add_value"
+          },
+          "requirements": {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#condeb:nature_shade_blocks"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "exclusive_set": "#minecraft:exclusive_set/armor",
+    "max_cost": {
+      "base": 35,
+      "per_level_above_first": 10
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 25,
+      "per_level_above_first": 10
+    },
+    "slots": [
+      "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 3
+  }

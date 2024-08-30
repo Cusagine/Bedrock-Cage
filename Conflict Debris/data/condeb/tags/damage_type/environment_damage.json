@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values":[
+        "cactus",
+        "campfire",
+        {"required":false,"id":"ender_pearl"},
+        "freeze",
+        "hot_floor",
+        "in_fire",
+        "lightning_bolt",
+        "mob_attack_no_aggro",
+        "on_fire",
+        "outside_border",
+        "spit",
+        "stalagmite",
+        "starve",
+        "sweet_berry_bush",
+        "thorns"
+    ]
+}

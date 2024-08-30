@@ -30,6 +30,8 @@
     "advancements.brc.root.description": "欢迎回来。",
     "advancements.brc.at_pillar_point.title": "人生是一段回旋的旅程",
     "advancements.brc.at_pillar_point.description": "我们都很清楚，眼前的东西不在眼前。",
+    "advancements.brc.rule_break.title": "规则破坏者",
+    "advancements.brc.rule_break.description": "破坏命令方块或结构方块",
 
     "game_command.brc.clean_item":"物品已清除。",
     "game_command.brc.open_gateway":"折跃门已打开。",

@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values":[
+        "minecraft:tall_grass",
+        "minecraft:short_grass",
+        "minecraft:moss_block",
+        "minecraft:moss_carpet",
+        "minecraft:sweet_berry_bush",
+        "minecraft:cactus",
+        "#minecraft:cave_vines",
+        "#minecraft:corals",
+        "#minecraft:crops",
+        "#minecraft:flowers",
+        "#minecraft:leaves",
+        "#minecraft:saplings",
+        "#minecraft:fire",
+        "#minecraft:snow"
+    ]
+}

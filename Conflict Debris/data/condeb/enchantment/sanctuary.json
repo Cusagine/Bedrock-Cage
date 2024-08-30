@@ -1,0 +1,35 @@
+{
+    "anvil_cost": 1,
+    "description": {
+      "translate": "enchantment.condeb.sanctuary",
+      "fallback": "Sanctuary"
+    },
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+          },
+          "attribute": "minecraft:generic.max_health",
+          "id": "condeb:enchantment.sanctuary",
+          "operation": "add_value"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 100,
+      "per_level_above_first": 10
+    },
+    "max_level": 5,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 10
+    },
+    "slots": [
+      "hand"
+    ],
+    "supported_items": "#condeb:enchantable",
+    "weight": 2
+  }

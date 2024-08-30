@@ -30,6 +30,8 @@
     "advancements.brc.root.description": "Weicome back.",
     "advancements.brc.at_pillar_point.title": "Life is a roundabout journey",
     "advancements.brc.at_pillar_point.description": "We all know that what is in front of us is not in front of us.",
+    "advancements.brc.rule_break.title": "Rule Braeker",
+    "advancements.brc.rule_break.description": "Break Command Block or Structure Block",
 
     "game_command.brc.clean_item":"Items cleaned.",
     "game_command.brc.open_gateway":"Gateway opened.",

@@ -6,6 +6,7 @@
         "falling_block",
         "falling_stalactite",
         "fireworks",
-        "magic"
+        "magic",
+        "condeb:aftershock"
     ]
 }

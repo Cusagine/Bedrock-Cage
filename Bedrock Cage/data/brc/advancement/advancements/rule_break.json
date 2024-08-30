@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "break": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "icon": {
+        "id": "minecraft:arrow",
+        "count": 1
+      },
+      "title": {
+        "translate": "advancements.brc.rule_break.title",
+        "fallback": "Rule Braeker"
+      },
+      "description": {
+        "translate": "advancements.brc.rule_break.description",
+        "fallback": "Break Command Block or Structure Block"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "brc:advancements/root",
+    "requirements": [
+      [
+        "break"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
