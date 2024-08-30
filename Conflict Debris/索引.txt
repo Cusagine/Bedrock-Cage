@@ -1,0 +1,45 @@
+- player_hurt_entity_progress：攻击行为触发器
+   condeb:advancement\player_hurt_entity
+* 用于触发特性的触发器。
+    condeb:function\tweaks\player_hurt_entity_progress.mcfunction
+* 特性主函数。
+    condeb:function\tweaks\player_hurt_entity_progress\get_data.mcfunction
+* 获取数据。
+    condeb:function\tweaks\player_hurt_entity_progress\run_features.mcfunction
+* 运行有关特性。
+
+
+- damage_calculator：伤害计算器。
+   condeb:function\damage_calculator\.mcfunction ：
+   condeb:function\damage_calculator\.mcfunction ：
+   condeb:function\damage_calculator\.mcfunction ：
+   condeb:function\damage_calculator\.mcfunction ：
+   condeb:function\damage_calculator\.mcfunction ：
+   condeb:function\damage_calculator\.mcfunction ：
+
+事件
+- condeb:function\status_resistance.mcfunction ：抵抗效果函数。
+- condeb:function\confusion.mcfunction ：混乱效果函数。
+  - condeb:function\confusion\x.mcfunction ：更高等级的混乱效果函数。
+  - condeb:function\confusion\custom.mcfunction ：自定义混乱效果函数。
+* time - 状态效果持续时间； amplifier - 状态效果倍率； stun_tick - 劫掠兽眩晕刻数
+
+
+
+伤害类型
+- condeb:damage_type\ethereal.json ：轻盈伤害
+- condeb:damage_type\reap.json ：收割伤害
+
+函数
+- condeb:function\load.mcfunction ：加载函数。
+- condeb:function\load\objectives_set.mcfunction ：设定需要的记分项。
+- condeb:function\tick.mcfunction ：刻触发函数。
+- condeb:function\load\objectives_update.mcfunction ：更新记分项。
+
+标签
+- condeb:tags\entity_type\sensitive_to_civilization_apocalypse.json ：受文明杀手影响的生物。
+
+- condeb:tags\item\tonic.json ：被视作灵药的物品。
+- condeb:tags\item\enchantable.json ：可附魔的物品。
+- condeb:tags\item\enchantable\attackable.json ：可视作攻击物品的物品。
+- condeb:tags\item\enchantable\heavy_weapon.json ：可视作重型武器的物品。

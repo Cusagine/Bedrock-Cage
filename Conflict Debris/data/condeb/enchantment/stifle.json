@@ -1,0 +1,53 @@
+{
+    "anvil_cost": 2,
+    "description": {
+      "translate": "enchantment.condeb.stifle",
+      "fallback": "Stifle"
+    },
+    "effects": {
+      "minecraft:damage": [
+        {
+          "effect": {
+            "type": "minecraft:set",
+            "value": 3.4E38
+          },
+          "requirements": {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "#condeb:small"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "flags": {
+                    "is_baby": true
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 25,
+      "per_level_above_first": 8
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 8
+    },
+    "primary_items": "#minecraft:hoes",
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#condeb:enchantable/attackable",
+    "weight": 5
+  }

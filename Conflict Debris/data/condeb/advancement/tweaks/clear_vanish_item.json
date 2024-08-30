@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "changed_dimension": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {}
+      }
+    },
+    "requirements": [
+      [
+        "changed_dimension"
+      ]
+    ],
+    "rewards": {
+        "function": "condeb:tweaks/clear_vanish_item"
+  }
+}

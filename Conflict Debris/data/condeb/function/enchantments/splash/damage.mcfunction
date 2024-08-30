@@ -1,0 +1,1 @@
+$damage @s $(CondebSplashDamage) minecraft:fireworks by @n[tag=condeb.splash.attacker]

@@ -1,0 +1,3 @@
+execute if items entity @s weapon.mainhand minecraft:recovery_compass[!count=1] run give @s minecraft:compass
+execute if items entity @s weapon.mainhand minecraft:recovery_compass[count=1] run item replace entity @s weapon.mainhand with minecraft:compass
+execute if items entity @s weapon.mainhand minecraft:recovery_compass run item modify entity @s weapon.mainhand {function:"set_count",add:true,count:-1}

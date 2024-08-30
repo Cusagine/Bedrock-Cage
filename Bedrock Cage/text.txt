@@ -48,6 +48,7 @@ place template test 0 -16 0
 
 #brc:map_load：加载地图时使用的全域函数
 #brc:deduction_load：演绎模式下加载地图时使用的全域函数
+#brc:menu_load：加载命运大厅（菜单）时使用的函数
 
 Start:玩家的出生点位置
 Goal:目标位置

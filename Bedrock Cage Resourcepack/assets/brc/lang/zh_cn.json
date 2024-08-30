@@ -47,6 +47,9 @@
     "objective.brc.death_trigger":"死亡触发器",
     "objective.brc.quit_trigger":"退出触发器",
     "objective.brc.random":"随机发生器",
+    "objective.brc.storage_1": "临时储存1",
+    "objective.brc.storage_2": "临时储存2",
+    "objective.brc.storage_3": "临时储存3",
     
     "rule.brc.killing_block":"杀人方块：",
     "rule.brc.close_gateway":"关闭折跃门",
@@ -125,5 +128,8 @@
     "check.brc.start.failed":"存在起始点：否",
     "check.brc.goal.success":"存在目标点：是",
     "check.brc.goal.failed":"存在目标点：否",
+
+    "text.hi": "hi",
+
     "":""
 }

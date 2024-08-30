@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values":[
+        "condeb:magic_protection",
+        "condeb:dodge",
+        "condeb:deflect"
+    ]
+}

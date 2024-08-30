@@ -1,0 +1,65 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.condeb.dodge",
+      "fallback": "Dodge"
+    },
+    "effects": {
+      "minecraft:damage_immunity": [
+        {
+          "effect": {},
+          "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:damage_source_properties",
+                "predicate": {
+                  "tags":[
+                    {
+                      "expected": true,
+                      "id": "condeb:intentional_attack"
+                    },
+                    {
+                      "expected": false,
+                      "id": "minecraft:bypasses_invulnerability"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": {
+                  "type": "enchantment_level",
+                  "amount":{
+                    "type": "minecraft:clamped",
+                    "max": 1,
+                    "min": 0.1,
+                    "value": {
+                      "type": "minecraft:linear",
+                      "base": 0.15,
+                      "per_level_above_first": 0.05
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "exclusive_set": "#minecraft:exclusive_set/armor",
+    "max_cost": {
+      "base": 18,
+      "per_level_above_first": 8
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 8
+    },
+    "slots": [
+      "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 3
+  }

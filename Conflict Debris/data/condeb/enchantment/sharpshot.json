@@ -1,0 +1,57 @@
+{
+    "anvil_cost": 2,
+    "description": {
+      "translate": "enchantment.condeb.sharpshot",
+      "fallback": "Sharpshot"
+    },
+    "effects": {
+      "minecraft:damage": [
+        {
+          "effect": {
+            "type": "minecraft:add",
+            "value": {
+              "type": "minecraft:linear",
+              "base": 1.5,
+              "per_level_above_first": 1
+            }
+          },
+          "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate": {
+                      "type": "#minecraft:arrows"
+                    }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_on_ground": false
+                    }
+                  }
+                }
+            ]
+          }
+        }
+      ]
+    },
+    "exclusive_set": "minecraft:power",
+    "max_cost": {
+      "base": 16,
+      "per_level_above_first": 10
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 10
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/bow",
+    "weight": 10
+  }

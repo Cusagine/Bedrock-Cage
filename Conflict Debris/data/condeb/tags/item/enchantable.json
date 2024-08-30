@@ -1,0 +1,10 @@
+{
+    "values": [
+      "#minecraft:enchantable/durability",
+      "minecraft:clock",
+      "minecraft:compass",
+      "minecraft:carved_pumpkin",
+      "#minecraft:skulls",
+      "minecraft:recovery_compass"
+    ]
+  }

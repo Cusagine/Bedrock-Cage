@@ -1,0 +1,31 @@
+{
+    "anvil_cost": 8,
+    "description": {
+      "translate": "enchantment.condeb.yummy_curse",
+      "fallback": "Curse of Yummy"
+    },
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "condeb:enchantments/yummy_curse"
+          }
+        }
+        ]
+    },
+    "max_cost": {
+      "base": 50,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 25,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "hand"
+    ],
+    "supported_items": "#condeb:enchantable/melee_weapon",
+    "weight": 1
+  }

@@ -27,3 +27,6 @@ team modify brc_boss color light_purple
 scoreboard objectives add death_trigger deathCount {"translate":"objective.brc.death_trigger","fallback":"Death Trigger"}
 scoreboard objectives add Quit trigger {"translate":"objective.brc.quit_trigger","fallback":"Quit Trigger"}
 scoreboard objectives add random dummy {"translate":"objective.brc.random","fallback":"Randomizer"}
+scoreboard objectives add storage_1 dummy {"translate":"objective.brc.storage_1","fallback":"Temp Storage 1"}
+scoreboard objectives add storage_2 dummy {"translate":"objective.brc.storage_2","fallback":"Temp Storage 2"}
+scoreboard objectives add storage_3 dummy {"translate":"objective.brc.storage_3","fallback":"Temp Storage 3"}

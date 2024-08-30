@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "values":[
+        "arrow",
+        "bad_respawn_point",
+        "dragon_breath",
+        "explosion",
+        "fireball",
+        "fireworks",
+        "mob_attack",
+        "mob_attack_no_aggro",
+        "mob_projectile",
+        "player_attack",
+        "player_explosion",
+        "spit",
+        "sting",
+        "thorns",
+        "trident",
+        "wind_charge",
+        "wither_skull",
+        "thrown",
+        "condeb:aftershock"
+    ]
+}

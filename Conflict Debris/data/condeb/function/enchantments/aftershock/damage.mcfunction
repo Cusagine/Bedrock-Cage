@@ -1,0 +1,1 @@
+$damage @s $(CondebAftershockDamage) condeb:aftershock by @n[tag=condeb.aftershock.attacker]

@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values":[
+        "condeb:splash",
+        "condeb:aftershock",
+        "minecraft:wind_burst"
+    ]
+}

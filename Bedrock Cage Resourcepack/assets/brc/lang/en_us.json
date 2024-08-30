@@ -47,6 +47,9 @@
     "objective.brc.death_trigger":"Death Trigger",
     "objective.brc.quit_trigger":"Quit Trigger",
     "objective.brc.random":"Randomizer",
+    "objective.brc.storage_1": "Temp Storage 1",
+    "objective.brc.storage_2": "Temp Storage 2",
+    "objective.brc.storage_3": "Temp Storage 3",
 
     "rule.brc.killing_block":"Killer Block:",
     "rule.brc.close_gateway":"Close Gateway",
@@ -126,6 +129,8 @@
     "check.brc.goal.success":"Goal Point(s) Exist: Yes",
     "check.brc.goal.failed":"Goal Point(s) Exist: No",
 
+    "_comment.text.hi": "Used in a Command Block acted as '/say hi' in map swellhead_abyss (Swellhead Abyss).",
+    "text.hi": "hi",
 
     "":""
 }

@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values":[
+        "allay",
+        "bat",
+        "cod",
+        "parrot",
+        "rabbit",
+        "salmon",
+        "tadpole",
+        "tropical_fish",
+        "pufferfish",
+        "frog",
+        "endermite",
+        "silverfish",
+        "vex"
+    ]
+}

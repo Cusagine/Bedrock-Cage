@@ -4,6 +4,10 @@ execute as @e[type=!player,tag=Player] run data merge entity @s {Invulnerable:1b
 fill -16 31 -16 15 -16 15 minecraft:air
 tp @e[type=!player,tag=!Keep,tag=!Player] ~ -100 ~
 kill @e[type=!player,tag=!Keep,tag=!Player]
+scoreboard players reset #brc
+scoreboard players reset @e storage_1
+scoreboard players reset @e storage_2
+scoreboard players reset @e storage_3
 # set_template
 execute if data storage brc:map_info {large:0b} run function brc:game_command/small
 $execute if data storage brc:map_info {large:0b} run place template $(content) 0 -16 0

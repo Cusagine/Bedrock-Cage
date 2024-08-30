@@ -1,0 +1,1 @@
+execute as @a run function condeb:tick/objectives_update

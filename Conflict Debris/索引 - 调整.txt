@@ -1,0 +1,37 @@
+- compass_back：手持追溯指针右击信标可以回到死亡地点。
+    condeb:advancement\tweaks\compass_back.json
+* 用于触发特性的触发器。
+    condeb:function\tweaks\compass_back.mcfunction
+* 特性主函数。
+    condeb:function\tweaks\compass_back\run.mcfunction
+* 记录死亡地点数据并尝试传送。
+    condeb:function\tweaks\compass_back\tp.mcfunction
+* 传送目标至死亡地点。
+    condeb:function\tweaks\compass_back\vanish_consume.mcfunction
+* 追溯指针拥有消失魔咒时的消耗情形。（直接消耗）
+    condeb:function\tweaks\compass_back\normal_consume.mcfunction
+* 追溯指针无消失魔咒时的消耗情形。（转变为指南针）
+
+- tonic_use：增加使用灵药进行一次抵抗判定的功能。
+    condeb:advancement\tweaks\tonic_use.json
+* 用于触发特性的触发器。
+    condeb:function\tweaks\tonic_use.mcfunction
+* 特性主函数。
+    ！灵药标签、抵抗判定位于核心数据包里。
+
+- clear_vanish_item：改变维度后清除所有拥有消失诅咒的物品。
+    ！触发器为condeb:function\player_hurt_entity_progress.mcfunction
+    condeb:function\tweak\clear_vanish_item.mcfunction
+* 特性主函数。
+
+- fast_use：快速使用功能方块。
+    condeb:advancement\tweaks\fast_use\crafting_table.json
+    condeb:advancement\tweaks\fast_use\smithing_table.json
+    condeb:advancement\tweaks\fast_use\fletching_table.json
+* 用于触发特性的触发器。
+
+
+
+
+- 弹射物伤害和直接魔法不再受攻击后冷却时间影响。
+    minecraft:tags\damage_type\bypasses_cooldown.json

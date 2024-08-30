@@ -1,0 +1,1 @@
+execute unless data storage brxt:config condeb.objectives_set run function condeb:load/objectives_set

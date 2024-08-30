@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:is_projectile",
+        "falling_anvil",
+        "falling_block",
+        "falling_stalactite",
+        "fireworks",
+        "magic"
+    ]
+}

@@ -1,0 +1,1 @@
+$execute in $(LastDeathLocationDim) run tp @s $(LastDeathLocationX) $(LastDeathLocationY) $(LastDeathLocationZ)

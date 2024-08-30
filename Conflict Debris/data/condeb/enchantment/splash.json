@@ -1,0 +1,134 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.condeb.splash",
+      "fallback": "Splash"
+    },
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "condeb:enchantments/splash/attacker"  
+          },
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:damage_source_properties",
+                "predicate": {
+                  "is_direct": true
+                }
+              },
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "enchantment_level",
+                  "amount": {
+                    "type": "minecraft:linear",
+                    "base": 1,
+                    "per_level_above_first": 1
+                  }
+                },
+                "range": 1
+              }
+            ]
+          }
+        },{
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "condeb:enchantments/splash/attacker_2"  
+          },
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:damage_source_properties",
+                "predicate": {
+                  "is_direct": true
+                }
+              },
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "enchantment_level",
+                  "amount": {
+                    "type": "minecraft:linear",
+                    "base": 1,
+                    "per_level_above_first": 1
+                  }
+                },
+                "range": 2
+              }
+            ]
+          }
+        },{
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "condeb:enchantments/splash/attacker_3"  
+          },
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:damage_source_properties",
+                "predicate": {
+                  "is_direct": true
+                }
+              },
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "enchantment_level",
+                  "amount": {
+                    "type": "minecraft:linear",
+                    "base": 1,
+                    "per_level_above_first": 1
+                  }
+                },
+                "range": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        {
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "condeb:enchantments/splash/victim"  
+          },
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          }
+        }
+      ]
+    },
+    "exclusive_set": "#condeb:exclusive_set/ranged",
+    "primary_items": "#minecraft:enchantable/mace",
+    "max_cost": {
+      "base": 65,
+      "per_level_above_first": 9
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 15,
+      "per_level_above_first": 9
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/weapon",
+    "weight": 2
+  }

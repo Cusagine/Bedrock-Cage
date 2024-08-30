@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values":[
+        "cactus",
+        "falling_anvil",
+        "falling_block",
+        "falling_stalactite",
+        "lightning_bolt",
+        "stalagmite",
+        "sweet_berry_bush"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "criteria": {
+      "use_compass": {
+        "trigger": "minecraft:any_block_use",
+        "conditions": {
+          "location": [
+            {
+              "condition": "match_tool",
+              "predicate":{
+                "items":["minecraft:recovery_compass"]
+              }
+            },
+            {
+              "condition": "block_state_property",
+              "block": "minecraft:beacon"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "use_compass"
+      ]
+    ],
+    "rewards": {
+        "function": "condeb:tweaks/compass_back"
+  }
+}

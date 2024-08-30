@@ -1,0 +1,2 @@
+execute positioned ^ ^ ^3.5 if block ~ ~1.5 ~ #minecraft:replaceable run playsound minecraft:entity.player.small_fall ambient @a
+execute positioned ^ ^ ^3.5 if block ~ ~1.5 ~ #minecraft:replaceable positioned over motion_blocking run tp @s ~ ~ ~
