@@ -1,0 +1,45 @@
+{
+    "anvil_cost": 8,
+    "description": {
+      "translate": "enchantment.condeb.fragile_curse",
+      "fallback": "Curse of Fragile"
+    },
+    "effects": {
+      "attributes": [
+        {
+          "attribute": "generic.armor",
+          "id": "condeb:enchantment.fragile_curse",
+          "operation": "add_value",
+          "amount": {
+            "type": "linear",
+            "base": -4,
+            "per_level_above_first": -2
+          }
+        },
+        {
+          "attribute": "generic.armor_toughness",
+          "id": "condeb:enchantment.fragile_curse",
+          "operation": "add_value",
+          "amount": {
+            "type": "linear",
+            "base": -1,
+            "per_level_above_first": -1
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 50,
+      "per_level_above_first": 0
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 25,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "any"
+    ],
+    "supported_items": "#condeb:enchantable",
+    "weight": 1
+  }

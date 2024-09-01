@@ -14,3 +14,5 @@ execute if data storage brc:map_info {exit_condition:"clear"} if entity @e[tag=T
 # trigger check
 execute as @a[tag=Player,scores={death_trigger=1..}] run function brc:event/death_trigger
 execute as @a[scores={Quit=1..}] run function brc:event/quit_trigger
+# goal Invulnerable
+execute as @e[tag=Goal] run data modify entity @s Invulnerable set value true

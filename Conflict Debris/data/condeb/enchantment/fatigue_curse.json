@@ -1,0 +1,45 @@
+{
+    "anvil_cost": 8,
+    "description": {
+      "translate": "enchantment.condeb.fatigue_curse",
+      "fallback": "Curse of Fatigue"
+    },
+    "effects": {
+      "attributes": [
+        {
+          "attribute": "generic.attack_speed",
+          "id": "condeb:enchantment.fatigue_curse",
+          "operation": "add_value",
+          "amount": {
+            "type": "linear",
+            "base": -0.2,
+            "per_level_above_first": -0.2
+          }
+        },
+        {
+          "attribute": "player.block_break_speed",
+          "id": "condeb:enchantment.fatigue_curse",
+          "operation": "add_value",
+          "amount": {
+            "type": "linear",
+            "base": -0.2,
+            "per_level_above_first": -0.2
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 50,
+      "per_level_above_first": 0
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 25,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "any"
+    ],
+    "supported_items": "#condeb:enchantable",
+    "weight": 1
+  }

@@ -29,8 +29,8 @@
 
     "enchantment.condeb.extension": "延伸",
     "enchantment.condeb.extension.desc": "",
-    "enchantment.minecraft.confusion": "混乱",
-    "enchantment.minecraft.confusion.desc": "",
+    "enchantment.condeb.confusion": "混乱",
+    "enchantment.condeb.confusion.desc": "",
     "enchantment.condeb.bind": "束缚",
     "enchantment.condeb.bind.desc": "",
     "enchantment.condeb.disarm": "缴械",
@@ -80,10 +80,10 @@
     "enchantment.condeb.vulnerability_curse.desc": "",
     "enchantment.condeb.fatigue_curse": "疲劳诅咒",
     "enchantment.condeb.fatigue_curse.desc": "",
-    "enchantment.condeb.error_curse": "误差诅咒",
-    "enchantment.condeb.error_curse.desc": "",
-    "enchantment.minecraft.confusion_curse": "混乱诅咒",
-    "enchantment.minecraft.confusion_curse.desc": "",
+    "enchantment.condeb.confusion_curse": "混乱诅咒",
+    "enchantment.condeb.confusion_curse.desc": "",
+    "enchantment.condeb.tied_curse": "束缚诅咒",
+    "enchantment.condeb.tied_curse.desc": "",
     "enchantment.condeb.yummy_curse": "好吃诅咒",
     "enchantment.condeb.yummy_curse.desc": "",
     "enchantment.condeb.devour_curse": "噬魂诅咒",
@@ -102,5 +102,8 @@
     "enchantment.condeb.temp_spring": "泉流（临时）",
     "enchantment.condeb.temp_spring.desc": "",
     "enchantment.condeb.temp_aqua": "水矢（临时）",
-    "enchantment.condeb.temp_aqua.desc": ""
+    "enchantment.condeb.temp_aqua.desc": "",
+    
+    "death.attack.reaped": "%s被%s收割了",
+    "death.attack.reaped.item": "%s被%s用%s收割了"
 }

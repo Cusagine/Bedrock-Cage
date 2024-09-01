@@ -1,7 +1,7 @@
 {
     "anvil_cost": 4,
     "description": {
-      "translate": "enchantment.minecraft.confusion",
+      "translate": "enchantment.condeb.confusion",
       "fallback": "Confusion"
     },
     "effects": {
@@ -142,8 +142,102 @@
                     "per_level_above_first": 1
                   }
                 },
+                "range": 3
+              }
+            ]
+          }
+        },
+        {
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "condeb:confusion/4"
+          },
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:damage_source_properties",
+                "predicate": {
+                  "is_direct": true
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": {
+                  "type": "enchantment_level",
+                  "amount":{
+                    "type": "minecraft:clamped",
+                    "max": 0.5,
+                    "min": 0.2,
+                    "value": {
+                      "type": "minecraft:linear",
+                      "base": 0.2,
+                      "per_level_above_first": 0.1
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "enchantment_level",
+                  "amount": {
+                    "type": "minecraft:linear",
+                    "base": 1,
+                    "per_level_above_first": 1
+                  }
+                },
+                "range": 4
+              }
+            ]
+          }
+        },
+        {
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "condeb:confusion/5"
+          },
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:damage_source_properties",
+                "predicate": {
+                  "is_direct": true
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": {
+                  "type": "enchantment_level",
+                  "amount":{
+                    "type": "minecraft:clamped",
+                    "max": 0.5,
+                    "min": 0.2,
+                    "value": {
+                      "type": "minecraft:linear",
+                      "base": 0.2,
+                      "per_level_above_first": 0.1
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "enchantment_level",
+                  "amount": {
+                    "type": "minecraft:linear",
+                    "base": 1,
+                    "per_level_above_first": 1
+                  }
+                },
                 "range": {
-                  "min": 3
+                  "min": 5
                 }
               }
             ]
@@ -155,7 +249,7 @@
       "base": 60,
       "per_level_above_first": 20
     },
-    "max_level": 2,
+    "max_level": 3,
     "min_cost": {
       "base": 10,
       "per_level_above_first": 20

@@ -1,0 +1,1 @@
+clear @a *[enchantments~[{enchantments:"minecraft:vanishing_curse"}]]

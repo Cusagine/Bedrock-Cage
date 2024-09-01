@@ -2,6 +2,10 @@
     "replace": false,
     "values":[
         "minecraft:fire_aspect",
-        "condeb:confusion"
+        "condeb:spring",
+        "condeb:confusion",
+        "condeb:bind",
+        "condeb:confusion_curse",
+        "condeb:tied_curse"
     ]
 }

@@ -1,0 +1,50 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.condeb.aqua",
+      "fallback": "Aqua"
+    },
+    "effects": {
+      "minecraft:projectile_spawned": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "condeb:enchantments/aqua"
+          }
+        }
+      ],
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "condeb:erosion"
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows",
+            "nbt": "{Tags:[\"condeb.erosion\"]}"
+          }
+        }
+      }
+    ]
+    },
+    "max_cost": {
+      "base": 50,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 20,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/bow",
+    "exclusive_set": "#condeb:exclusive_set/effect_ranged",
+    "weight": 2
+  }

@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values":[
+        "minecraft:mending",
+        "condeb:vulnerability_curse"
+    ]
+}

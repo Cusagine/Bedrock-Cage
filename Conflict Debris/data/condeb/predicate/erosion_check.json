@@ -1,0 +1,40 @@
+{
+    "condition": "inverted",
+    "term": {
+        "condition": "any_of",
+        "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type": "#aquatic"
+                }
+            },
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "flags": {
+                        "is_on_fire": true
+                    }
+                }
+            },
+            {
+                "condition": "location_check",
+                "predicate": {
+                    "fluid": {
+                        "fluids": "#minecraft:lava"
+                    }
+                }
+            },
+            {
+                "condition": "location_check",
+                "predicate": {
+                    "block": {
+                        "blocks": "#minecraft:fire"
+                    }
+                }
+            }
+        ]
+    }
+}

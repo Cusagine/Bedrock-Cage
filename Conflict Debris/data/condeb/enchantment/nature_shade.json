@@ -36,7 +36,7 @@
             "type": "minecraft:attribute",
             "amount": {
               "type": "minecraft:linear",
-              "base": 4,
+              "base": 2,
               "per_level_above_first": 2
             },
             "attribute": "minecraft:generic.armor",

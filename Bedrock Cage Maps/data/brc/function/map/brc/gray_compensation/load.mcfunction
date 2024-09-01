@@ -1,0 +1,1 @@
+setblock 0 2 0 minecraft:repeating_command_block[conditional=false,facing=up]{Command:"tag @e[type=minecraft:magma_cube] add Target",SuccessCount:0,TrackOutput:0b,UpdateLastExecution:1b,auto:1b,conditionMet:1b,powered:0b}

@@ -1,0 +1,82 @@
+{
+    "anvil_cost": 8,
+    "description": {
+      "translate": "enchantment.condeb.tied_curse",
+      "fallback": "Curse of Tied"
+    },
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "condeb:bind"
+          },
+          "requirements": {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "enchantment_level",
+              "amount": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              }
+            },
+            "range": 1
+          }
+        },
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "condeb:bind/2"
+          },
+          "requirements": {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "enchantment_level",
+              "amount": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              }
+            },
+            "range": 2
+          }
+        },
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "condeb:bind/3"
+          },
+          "requirements": {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "enchantment_level",
+              "amount": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              }
+            },
+            "range": {
+              "min": 3
+            }
+          }
+        }
+        ]
+    },
+    "max_cost": {
+      "base": 50,
+      "per_level_above_first": 0
+    },
+    "exclusive_set": "#condeb:exclusive_set/effect",
+    "max_level": 3,
+    "min_cost": {
+      "base": 25,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "any"
+    ],
+    "supported_items": "#condeb:enchantable",
+    "weight": 1
+  }

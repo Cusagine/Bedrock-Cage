@@ -5,6 +5,40 @@
     "fallback": "Fire Aspect (Temporary)"
   },
   "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:set_block_properties",
+              "properties": {
+                "lit": "true"
+              },
+              "trigger_game_event": "minecraft:block_change"
+            },
+            {
+              "type": "minecraft:damage_item",
+              "amount": 1.0
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "#condeb:fire_table",
+              "state": {
+                "lit": "false"
+              }
+            },
+            "fluid": {
+              "fluids": "minecraft:empty"
+            }
+          }
+        }
+      }
+    ],
     "minecraft:post_attack": [
       {
         "affected": "victim",
@@ -23,7 +57,23 @@
             "is_direct": true
           }
         }
-      }
+      },
+      {
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:play_sound",
+            "sound": "entity.generic.burn",
+            "pitch": 1,
+            "volume": 1
+          },
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          }
+        }
     ]
   },
   "max_cost": {
@@ -35,6 +85,7 @@
     "base": 10,
     "per_level_above_first": 20
   },
+  "exclusive_set": "#condeb:exclusive_set/effect",
   "primary_items": "#minecraft:enchantable/sword",
   "slots": [
     "mainhand"

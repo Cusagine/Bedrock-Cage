@@ -29,8 +29,8 @@
 
     "enchantment.condeb.extension": "Extension",
     "enchantment.condeb.extension.desc": "",
-    "enchantment.minecraft.confusion": "Confusion",
-    "enchantment.minecraft.confusion.desc": "",
+    "enchantment.condeb.confusion": "Confusion",
+    "enchantment.condeb.confusion.desc": "",
     "enchantment.condeb.bind": "Bind",
     "enchantment.condeb.bind.desc": "",
     "enchantment.condeb.disarm": "Disarm",
@@ -80,10 +80,10 @@
     "enchantment.condeb.vulnerability_curse.desc": "",
     "enchantment.condeb.fatigue_curse": "Curse of Fatigue",
     "enchantment.condeb.fatigue_curse.desc": "",
-    "enchantment.condeb.error_curse": "Curse of Error",
-    "enchantment.condeb.error_curse.desc": "",
-    "enchantment.minecraft.confusion_curse": "Curse of Confusion",
-    "enchantment.minecraft.confusion_curse.desc": "",
+    "enchantment.condeb.confusion_curse": "Curse of Confusion",
+    "enchantment.condeb.confusion_curse.desc": "",
+    "enchantment.condeb.tied_curse": "Curse of Tied",
+    "enchantment.condeb.tied_curse.desc": "",
     "enchantment.condeb.yummy_curse": "Curse of Yummy",
     "enchantment.condeb.yummy_curse.desc": "",
     "enchantment.condeb.devour_curse": "Curse of Devour",
@@ -102,5 +102,8 @@
     "enchantment.condeb.temp_spring": "Spring (Temporary)",
     "enchantment.condeb.temp_spring.desc": "",
     "enchantment.condeb.temp_aqua": "Aqua (Temporary)",
-    "enchantment.condeb.temp_aqua.desc": ""
+    "enchantment.condeb.temp_aqua.desc": "",
+
+    "death.attack.reaped": "%s was harvested by %s",
+    "death.attack.reaped.item": "%s was harvested by %s using %s"
 }

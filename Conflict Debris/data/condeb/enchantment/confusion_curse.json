@@ -1,7 +1,7 @@
 {
     "anvil_cost": 8,
     "description": {
-      "translate": "enchantment.minecraft.confusion_curse",
+      "translate": "enchantment.condeb.confusion_curse",
       "fallback": "Curse of Confusion"
     },
     "effects": {
@@ -76,6 +76,7 @@
     "slots": [
       "any"
     ],
+    "exclusive_set": "#condeb:exclusive_set/effect",
     "supported_items": "#condeb:enchantable",
     "weight": 1
   }
