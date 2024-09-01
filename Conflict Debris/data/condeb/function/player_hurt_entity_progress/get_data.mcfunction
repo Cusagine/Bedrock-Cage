@@ -1,1 +1,1 @@
-$execute store result storage brxt:data player[{UUID:$(UUID)}].AttackSpeed float 1 run attribute @s minecraft:generic.attack_speed get
+#$execute store result storage brxt:data player[{UUID:$(UUID)}].AttackSpeed float 1 run attribute @s minecraft:generic.attack_speed get

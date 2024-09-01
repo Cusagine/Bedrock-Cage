@@ -55,6 +55,13 @@
                   "is_on_fire": true
                 }
               }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"condeb.remelting_sensitive\"]}"
+              }
             }
             ]
           }

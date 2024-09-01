@@ -52,6 +52,13 @@
                     }
                   }
                 }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"condeb.impaling_sensitive\"]}"
+              }
             }
             ]
           }
