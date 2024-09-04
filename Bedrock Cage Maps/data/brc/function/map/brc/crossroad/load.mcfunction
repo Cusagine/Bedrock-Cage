@@ -1,0 +1,3 @@
+setblock 13 6 1 minecraft:repeating_command_block[conditional=false,facing=up]{Command:"execute unless block 13 5 2 bedrock run setblock 13 5 2 air destroy",SuccessCount:0,TrackOutput:0b,UpdateLastExecution:1b,auto:1b,conditionMet:1b,powered:0b}
+setblock 13 6 0 minecraft:repeating_command_block[conditional=false,facing=up]{Command:"execute as @a at @s if block ~ ~ ~ minecraft:end_portal_frame run say 开启二结局",SuccessCount:0,TrackOutput:0b,UpdateLastExecution:1b,auto:1b,conditionMet:1b,powered:0b}
+fill 8 0 8 7 0 7 air

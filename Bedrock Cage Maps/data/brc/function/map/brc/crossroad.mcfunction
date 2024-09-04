@@ -6,6 +6,8 @@ data modify storage brc:map_info title set value "十字路口"
 data modify storage brc:map_info summary set value "无论从何处出发，我们一定会在终点相遇。"
 # desc:地图描述。
 data modify storage brc:map_info desc set value "你要朝哪个方向走？无论从何处出发，一切的目的地已经确定。"
+# 通过一结局后描述改变
+#data modify storage brc:map_info desc set value "你要朝哪个方向走？或许，我们应该前往其他地方。"
 # content:要加载的模板的命名空间ID。
 data modify storage brc:map_info content set value "brc:crossroad"
 # large:地图是否占4个区块。 （true——4个 false——1个）
@@ -19,6 +21,6 @@ data modify storage brc:map_info exit_condition set value "none"
 # death_result:死亡后的处理方式（none-无；quit：死亡后退出游戏）
 data modify storage brc:map_info death_result set value "none"
 # gamemode:玩家使用的游戏模式（adventure-冒险模式；survival-生存模式。不推荐填写为其他游戏模式）
-data modify storage brc:map_info gamemode set value "adventure"
+data modify storage brc:map_info gamemode set value "survival"
 # enable_tick:是否启用地图内游戏每刻函数（true-启用；false-不启用）
 data modify storage brc:map_info enable_tick set value false

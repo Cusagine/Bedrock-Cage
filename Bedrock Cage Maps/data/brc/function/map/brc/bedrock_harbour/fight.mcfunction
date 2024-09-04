@@ -23,13 +23,6 @@ team join brc_target @e[tag=Target]
 execute as @e[tag=Player] at @s run summon minecraft:ominous_item_spawner ~ ~2 ~ {item:{id:"minecraft:splash_potion",components:{potion_contents:{custom_effects:[{id:"minecraft:slowness",amplifier:3,duration:800},{id:"minecraft:weakness",amplifier:1,duration:800},{id:"minecraft:mining_fatigue",amplifier:3,duration:800},{id:"minecraft:blindness",amplifier:0,duration:100}]}}}}
 schedule function brc:map/brc/bedrock_harbour/golem_run 2s
 # map info change
-data modify storage brc:map_info id set value "dandelions_flutter_with_wind"
-data modify storage brc:map_info title set value "蒲公英随风飘扬"
-data modify storage brc:map_info summary set value "但蒲公英需要生存。"
-data modify storage brc:map_info desc set value ""
-data modify storage brc:map_info exit_state set value false
-data modify storage brc:map_info exit_condition set value "clear"
-data modify storage brc:map_info death_result set value "quit"
-data modify storage brc:map_info gamemode set value "survival"
+function brc:map/brc/_alter_map/dandelions_flutter_with_wind
 title @a title "蒲公英随风飘扬"
 title @a subtitle "但蒲公英需要生存。"

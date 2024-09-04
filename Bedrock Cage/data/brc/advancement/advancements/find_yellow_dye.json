@@ -1,0 +1,36 @@
+{
+    "criteria": {
+      "find": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{
+            "items": "yellow_dye"
+          }]
+        }
+      }
+    },
+    "display": {
+      "icon": {
+        "id": "minecraft:yellow_dye",
+        "count": 1
+      },
+      "title": {
+        "translate": "advancements.brc.find_yellow_dye.title",
+        "fallback": "Sunlight Still"
+      },
+      "description": {
+        "translate": "advancements.brc.find_yellow_dye.description",
+        "fallback": "Find Yellow Dye"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "brc:advancements/root",
+    "requirements": [
+      [
+        "find"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }

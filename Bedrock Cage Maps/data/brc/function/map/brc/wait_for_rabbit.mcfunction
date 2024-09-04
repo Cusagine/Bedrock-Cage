@@ -1,13 +1,13 @@
 # id:当前地图的id。建议与函数名称一致。
-data modify storage brc:map_info id set value "gray_compensation"
+data modify storage brc:map_info id set value "wait_for_rabbit"
 # title:地图标题。会在载入地图时用作标题。
-data modify storage brc:map_info title set value "灰色代偿"
+data modify storage brc:map_info title set value "守株待兔"
 # summary:地图摘要。会在载入地图时用作副标题。
-data modify storage brc:map_info summary set value "不存在的颜色就用灰色代替吧。"
+data modify storage brc:map_info summary set value "我们终于等到了兔子。"
 # desc:地图描述。
-data modify storage brc:map_info desc set value "蒲公英是什么颜色？灰色。未来是什么颜色？灰色。"
+data modify storage brc:map_info desc set value "机遇比平凡更诱人。于是，我们选择等待。最后，我们等到了像当时一样使我们改变的机遇。"
 # content:要加载的模板的命名空间ID。
-data modify storage brc:map_info content set value "brc:gray_compensation"
+data modify storage brc:map_info content set value "brc:wait_for_rabbit"
 # large:地图是否占4个区块。 （true——4个 false——1个）
 data modify storage brc:map_info large set value false
 # next_pool:地图使用的下一个抽取池。用于决定下一个地图。

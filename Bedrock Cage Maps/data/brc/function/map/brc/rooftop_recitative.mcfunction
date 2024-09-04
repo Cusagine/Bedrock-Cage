@@ -1,13 +1,13 @@
 # id:当前地图的id。建议与函数名称一致。
-data modify storage brc:map_info id set value "gray_compensation"
+data modify storage brc:map_info id set value "rooftop_recitative"
 # title:地图标题。会在载入地图时用作标题。
-data modify storage brc:map_info title set value "灰色代偿"
+data modify storage brc:map_info title set value "天台宣叙调"
 # summary:地图摘要。会在载入地图时用作副标题。
-data modify storage brc:map_info summary set value "不存在的颜色就用灰色代替吧。"
+data modify storage brc:map_info summary set value "我们向下开始。"
 # desc:地图描述。
-data modify storage brc:map_info desc set value "蒲公英是什么颜色？灰色。未来是什么颜色？灰色。"
+data modify storage brc:map_info desc set value ""
 # content:要加载的模板的命名空间ID。
-data modify storage brc:map_info content set value "brc:gray_compensation"
+data modify storage brc:map_info content set value "brc:rooftop_recitative"
 # large:地图是否占4个区块。 （true——4个 false——1个）
 data modify storage brc:map_info large set value false
 # next_pool:地图使用的下一个抽取池。用于决定下一个地图。
@@ -22,3 +22,4 @@ data modify storage brc:map_info death_result set value "none"
 data modify storage brc:map_info gamemode set value "survival"
 # enable_tick:是否启用地图内游戏每刻函数（true-启用；false-不启用）
 data modify storage brc:map_info enable_tick set value false
+#/summon minecraft:pillager ~ ~ ~ {NoAI:1b,HandItems:[{id:"minecraft:crossbow",components:{enchantments:{levels:{"punch":3,"condeb:dissolve":1}}}}],PersistenceRequired:true}
