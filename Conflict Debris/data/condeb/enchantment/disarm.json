@@ -1,0 +1,50 @@
+{
+    "anvil_cost": 3,
+    "description": {
+      "translate": "enchantment.condeb.disarm",
+      "fallback": "Disarm"
+    },
+    "effects": {
+      "minecraft:post_attack":[
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "condeb:enchantments/disarm"  
+          },
+          "affected": "victim",
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:random_chance",
+            "chance": {
+              "type": "enchantment_level",
+              "amount":{
+                "type": "minecraft:clamped",
+                "max": 1,
+                "min": 0.1,
+                "value": {
+                  "type": "minecraft:linear",
+                  "base": 0.2,
+                  "per_level_above_first": 0.2
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 35,
+      "per_level_above_first": 10
+    },
+    "max_level": 5,
+    "min_cost": {
+      "base": 20,
+      "per_level_above_first": 10
+    },
+    "primary_items": "#minecraft:shovels",
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#condeb:enchantable/attackable",
+    "weight": 5
+  }
