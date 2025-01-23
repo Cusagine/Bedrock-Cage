@@ -1,4 +1,4 @@
-data modify storage brc:core Load.CtSetUp set value 1b
+data modify storage brc:core load.ct_setup set value 1b
 # Area Add
 fill -16 47 -16 15 32 15 minecraft:air
 fill -17 31 -17 16 16 16 minecraft:light_blue_concrete replace minecraft:bedrock
