@@ -1,3 +1,4 @@
-execute unless items block 15 2 -6 container.* * run return run tellraw @a {"translate":"event.brc.change_theme.empty","fallback":"Please put the book on the bookshelf","color":"red"}
-execute if items block 15 2 -6 container.* minecraft:written_book run return run function brc:event/change_theme/save with block 15 2 -6 Items[0].components."minecraft:written_book_content".pages[0]
-execute if items block 15 2 -6 container.* minecraft:writable_book run return run function brc:event/change_theme/save with block 15 2 -6 Items[0].components."minecraft:writable_book_content".pages[0]
+# Used at Menu 15 3 -5
+execute unless items block 15 2 -6 container.* * run return run tellraw @a[x=-17,y=-17,z=-17] {"translate":"event.brc.change_theme.empty","fallback":"Please put the book on the bookshelf","color":"red"}
+execute if items block 15 2 -6 container.* minecraft:written_book run return run function brc:event/change_theme/save with block 15 2 -6 Items[{components:{"minecraft:custom_data":{"theme_book":1b}}}].components."minecraft:written_book_content".pages[0]
+execute if items block 15 2 -6 container.* minecraft:writable_book run return run function brc:event/change_theme/save with block 15 2 -6 Items[{components:{"minecraft:custom_data":{"theme_book":1b}}}].components."minecraft:writable_book_content".pages[0]

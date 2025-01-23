@@ -4,7 +4,7 @@ title @s times 10t 1s 10t
 execute unless data storage brc:stage {run:1b} run tag @s add player
 execute unless data storage brc:stage {run:1b} run scoreboard players enable @s quit
 execute if data storage brc:stage {run:1b} run gamemode spectator
-# player Check
+# first Check
 execute if data storage brc:core load{player_setup:1b} run return 2
 data modify storage brc:core load.player_setup set value 1b
 schedule function brc:game_command/menu 1s replace

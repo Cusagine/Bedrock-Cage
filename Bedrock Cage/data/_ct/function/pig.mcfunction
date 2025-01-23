@@ -1,1 +1,1 @@
-summon minecraft:pig ~ ~ ~ {PersistenceRequired: 1b, Tags: ["Target"], Health: 10.0f, DeathLootTable: "brc:menu_pig"}
+summon minecraft:pig ~ ~ ~ {PersistenceRequired: 1b, Tags: ["target"], Health: 10.0f, DeathLootTable: "brc:menu_pig"}

@@ -8,7 +8,9 @@
 
     "tag.brc.goal":"Goal Point",
     "tag.brc.start":"Start Point",
+    "tag.brc.selected_start":"Start Point",
     "tag.brc.target":"Target",
+    "tag.brc.not_target":"Not Target",
     "tag.brc.boss":"Boss",
     "tag.brc.player":"Player",
     "tag.brc.keep":"Keep",

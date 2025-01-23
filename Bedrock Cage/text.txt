@@ -16,6 +16,9 @@ place template test -16 -16 -16
 place template test 0 -16 0
 
 全景图坐标： /tp @s 0.00 7.80 0.00 -45 25
+优化@e选择器：@e[x=-17,y=-17,z=-17,dx=33,dy=49,dz=33]  
+x=-17,y=-17,z=-17,dx=33,dy=49,dz=33
+x=-17,y=-17,z=-17
 
 地图信息 brc:map_info
 # id:当前地图的id。建议与函数名称一致。
@@ -46,20 +49,22 @@ place template test 0 -16 0
 # step:玩家所处阶段的第几个牢笼。
 # deduction:是否处于演绎模式。
 
+函数标签：
 #brc:map_load：加载地图时使用的全域函数
 #brc:deduction_load：演绎模式下加载地图时使用的全域函数
 #brc:menu_load：加载命运大厅（菜单）时使用的函数
 
-Start:玩家的出生点位置
-Goal:目标位置
-Target:清除对象
-Player:参与游戏的实体
-Keep:保留的实体
-Complete:完成游戏的实体
+影响标签：
+start:玩家的出生点位置
+goal:目标位置
+target:清除对象
+player:参与游戏的实体
+keep:保留的实体
+complete:完成游戏的实体
 
+定向实体列表：
+selected_start（被选中的起始点）：[I;-1860688829,-1059371467,-1599208222,38068281]   "91182443-c0db-4635-a0ae-04e20244e039"
 
-规则机械（Ruled Ruler）
-必须破坏3个供能命令方块（会持续放置红石块）才能通关。
 
 
 {front_text:{messages:['{"translate":"","fallback":""}','','','']}}

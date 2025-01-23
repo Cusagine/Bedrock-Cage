@@ -8,7 +8,9 @@
 
     "tag.brc.goal":"目标点",
     "tag.brc.start":"起始点",
+    "tag.brc.selected_start":"起始点",
     "tag.brc.target":"目标",
+    "tag.brc.not_target":"不是目标",
     "tag.brc.boss":"老板",
     "tag.brc.player":"玩家",
     "tag.brc.keep":"保留",

@@ -1,2 +1,2 @@
-execute as @e[type=item_frame,tag=Goal] at @s run setblock ~ ~ ~ minecraft:end_gateway
-tellraw @a {"translate":"game_command.brc.open_gateway","fallback":"Gateway opened.","color":"yellow"}
+execute as @e[x=-17,y=-17,z=-17,dx=33,dy=49,dz=33,type=item_frame,tag=goal] at @s run setblock ~ ~ ~ minecraft:end_gateway
+tellraw @a[x=-17,y=-17,z=-17] {"translate":"game_command.brc.open_gateway","fallback":"Gateway opened.","color":"yellow"}

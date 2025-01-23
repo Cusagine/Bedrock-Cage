@@ -1,0 +1,22 @@
+{
+	"packrulemenus.config.askPackConfirmation": "重载数据包时总是询问",
+	"packrulemenus.config.askPackConfirmation.tooltip": "这也将优雅地为您提供重新启动世界的选项。",
+	"packrulemenus.config.buttonlocation": "按钮位置",
+	"packrulemenus.config.buttonlocation.none": "无",
+	"packrulemenus.config.buttonlocation.none.tooltip": "菜单按钮将只能通过 ModMenu 访问",
+	"packrulemenus.config.buttonlocation.options_body": "选项主体",
+	"packrulemenus.config.buttonlocation.options_body.tooltip": "菜单按钮将插入到选项菜单的众多按钮上方。",
+	"packrulemenus.config.buttonlocation.options_header": "选项标题",
+	"packrulemenus.config.buttonlocation.options_header.tooltip": "菜单按钮将插入到选项菜单中难度按钮的正下方。",
+	"packrulemenus.gui.main.title": "数据包／规则菜单",
+	"packrulemenus.gui.worldoptions.title": "世界选项",
+	"packrulemenus.warning.featureflag.title": "功能开关",
+	"packrulemenus.warning.featureflag.message": "您正在尝试启用或停用一个或多个功能开关。需要重新启动世界才能应用这些更改。",
+	"packrulemenus.warning.featureflag.checkbox": "我知道我在做什么。现在退出世界。",
+	"packrulemenus.warning.packConfirmation.title": "数据包重载",
+	"packrulemenus.warning.packConfirmation.message": "是否重新加载选择的数据包？\n\n自1.21后，一些数据包需要重新加载世界才能生效。",
+	"packrulemenus.warning.packConfirmation.checkbox": "(可选)重载前退出世界",
+	"packrulemenus.warning.vanillapack.title": "原版数据包",
+	"packrulemenus.warning.vanillapack.message": "您正在尝试停用原版数据包。这很可能会导致世界损坏。你确定要继续吗？",
+	"packrulemenus.warning.vanillapack.checkbox": "我已准备好面对后果。"
+}
